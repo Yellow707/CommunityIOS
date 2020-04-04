@@ -38,7 +38,12 @@
 		60A460822438EFA4004141B4 = {
 			isa = PBXGroup;
 			children = (
-				60A4608D2438EFA4004141B4 /* Community */,
+				60A4608E2438EFA4004141B4 /* AppDelegate.swift */,
+				60A460902438EFA4004141B4 /* SceneDelegate.swift */,
+				60A460922438EFA4004141B4 /* ViewController.swift */,
+				60A460972438EFA7004141B4 /* Assets.xcassets */,
+				60A460992438EFA7004141B4 /* LaunchScreen.storyboard */,
+				60A4609C2438EFA8004141B4 /* Info.plist */,
 				60A4608C2438EFA4004141B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,19 +54,6 @@
 				60A4608B2438EFA4004141B4 /* Community.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		60A4608D2438EFA4004141B4 /* Community */ = {
-			isa = PBXGroup;
-			children = (
-				60A4608E2438EFA4004141B4 /* AppDelegate.swift */,
-				60A460902438EFA4004141B4 /* SceneDelegate.swift */,
-				60A460922438EFA4004141B4 /* ViewController.swift */,
-				60A460972438EFA7004141B4 /* Assets.xcassets */,
-				60A460992438EFA7004141B4 /* LaunchScreen.storyboard */,
-				60A4609C2438EFA8004141B4 /* Info.plist */,
-			);
-			path = Community;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +266,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Y3ZWXNG9Y;
-				INFOPLIST_FILE = Community/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +284,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Y3ZWXNG9Y;
-				INFOPLIST_FILE = Community/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
